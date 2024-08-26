@@ -5,34 +5,45 @@
     font-family: 'Roboto', sans-serif; 
 }
 
+body{
+    background-color: bisque;
+}
+
+
 
 .conteiner{
+    background-color: beige;
     margin-top: 9em;
     margin-left: 35em;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.685);
+    max-width: 300px;
+    width: 100%;
+    padding: 1em;
+    border-radius: 1em;
 }
 
 .conteiner input {
     margin-top: 2em;
-    padding: 0.4em;
-    
+    padding: 0.4em;  
+    border-radius: 1em;
 }
 
-.conteiner ul li{
-    margin-left: 5em;
-    padding: 0.9em;
-   
+li{
+    padding: 0.7em;
+    margin-left: 1.5em;
 }
 
 
 button{
     padding: 0.4em;  
     font-weight: bold;
-    background-color: darkgreen;
+    background-color: rgb(18, 172, 18);
     color: aliceblue;
+    border-radius: 0.3em;
 }
 
 button:hover  {
- background-color: darkolivegreen;
+ background-color: rgb(172, 199, 21);
 }
 
 
