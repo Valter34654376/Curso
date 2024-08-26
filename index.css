@@ -1,0 +1,47 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+.conteiner{
+    margin-top: 9em;
+    margin-left: 35em;   
+}
+
+.conteiner input {
+    margin-top: 2em;
+    padding: 0.4em;
+    
+}
+
+.conteiner ul li{
+    margin-left: 5em;
+    padding: 0.9em;
+   
+}
+
+
+button{
+    padding: 0.4em;  
+    font-weight: bold;
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+button:hover  {
+ background-color: darkolivegreen;
+}
+
+
+.Nova-atividade{ 
+    cursor: pointer;
+    
+}
+
+.Nova-atividade.riscado{
+    text-decoration: line-through
+}
+
