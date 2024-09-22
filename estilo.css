@@ -5,10 +5,11 @@
     
 }
 
- html, body{
-    background-color: #e6e5e5;
-    
-}
+html, body { 
+height: 100%;
+background-color: rgb(233, 230, 227);
+
+ }
 
 
 
