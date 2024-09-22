@@ -6,6 +6,8 @@
 }
 
 
+
+
 html{
     height: 100%;  
 }
@@ -217,9 +219,12 @@ footer{
         margin-left: 0em;
     }
 
+
+  
+
     .container{
         max-width: 90%;
-        padding: 1em;
+        padding: 2.8em;
     }
 
      
