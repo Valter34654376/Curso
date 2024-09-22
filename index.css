@@ -2,14 +2,28 @@
     box-sizing: border-box;
     padding: 0;
     margin: auto 0;
-    
+   
 }
+
+
+html{
+    height: 100%;  
+}
+
+
 
 html, body { 
 height: 100%;
 background-color: rgb(233, 230, 227);
 
  }
+
+ body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima de 100% da altura da viewport */
+    height: 100%;
+  }
 
 
 
@@ -127,16 +141,18 @@ button{
 }
 
 footer{
-    align-items: center;
-    justify-content: center;
-    margin-top:  2em ;
     background-color: rgb(226, 212, 13);
-    padding: 1em 0;
-    font-weight: bold;    
-    width: 100%;  
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 0;
+    width: 100%;
+    margin-top: auto;  
+    font-weight: bold;
+    
 }
 
-
+.Produtos{
+    margin-bottom: 1em;
+}
 
 
 
