@@ -180,6 +180,9 @@ footer{
 @media screen  and (max-width: 640px){
 
 
+
+
+
     .Links, ul, li, a {
         margin-right: 6px;
         align-items: center;
@@ -203,10 +206,11 @@ footer{
         
     }
 
+  
 
     .sobre-a-loja .container p {
         font-family: Georgia, 'Times New Roman', Times, serif;  
-        width: 90%;
+        width: 100%
       
     }
 
@@ -217,14 +221,13 @@ footer{
 
     #loja {
         margin-left: 0em;
+        width: 90%;
     }
-
 
   
 
     .container{
-        max-width: 90%;
-        padding: 2.8em;
+        max-width: 70%;
     }
 
      
@@ -234,11 +237,6 @@ footer{
         display: block;
         margin-bottom: 3px;
     }
-
-    #linhas{
-        width: 89%;
-    }
-
 
 
     .Links , ul ,li ,a{
@@ -250,6 +248,9 @@ footer{
         
     }
 
+    #loja{
+        width: 100%;
+    }
 
     .Produtoss{
         display: block;
@@ -257,7 +258,7 @@ footer{
     }
 
     .Produtoss li{
-      width: 100%;
+      width: 111%;
        
     }
 
