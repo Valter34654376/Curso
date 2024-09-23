@@ -7,7 +7,6 @@
 
 
 
-
 html{
     height: 100%;  
 }
@@ -35,9 +34,16 @@ background-color: rgb(233, 230, 227);
     margin:  0 auto;
 }
 
+.texto{
+margin-left: 4em;
+margin-top: -4px;
+}
+
+
+
 header .container{
     display: flex;
-    align-items: center;
+   
     justify-content: space-between;
 }
 
@@ -76,7 +82,7 @@ header{
 }
 
 #loja{
-   margin-left: 2em;
+   display: flex;
 }
 
 .sobre-a-loja .container h1{
@@ -149,6 +155,7 @@ footer{
     width: 100%;
     margin-top: auto;  
     font-weight: bold;
+    display: flex;
     
 }
 
@@ -199,6 +206,8 @@ footer{
 
 
 
+
+
     header {
         background-color: rgb(226, 212, 13);
         padding: 1em; 
@@ -213,7 +222,14 @@ footer{
     }
     
 
-  
+    .texto{
+        margin-left: 0em;
+        margin-top: 0px;
+        display: block;
+        }
+        
+
+
 
     .sobre-a-loja .container p {
         font-family: Georgia, 'Times New Roman', Times, serif;  
@@ -221,17 +237,20 @@ footer{
       
     }
 
-    .sobre-a-loja .container  {
-        display: block 
-           
+    .sobre-a-loja  {
+        display: block;           
     }
+
 
     #loja {
         margin-left: 0em;
         width: 90%;
+        display: block;
     }
 
-  
+    #loja img{
+        margin-bottom: 1.5em;
+    }
 
     .container{
         max-width: 70%;
@@ -285,23 +304,56 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen  and ( min-width: 641px) and  (max-width: 1023px ){
 
+    header {
+        background-color: rgb(226, 212, 13);
+      width: 100%;
 
-
-    .sobre-a-loja .container{
-        width: 96%;
-        
     }
+
+
+
+    #loja{
+        display: block;
+    }
+
+
+    .texto {
+       margin-left: 0em; 
+        margin-top: 0px;
+    }
+
+
 
     .sobre-a-loja .container  {
         display: block    
     }
 
     .sobre-a-loja .container img{
-        width: 82%; 
-        max-height: 90%;
-        margin-left: 2em;
+        width: 100%; 
+       
+        
        
     }
 
@@ -314,31 +366,33 @@ footer{
 
 
     .container{
-        width: 88%;
+        width: 80%;
         padding: 3em;
        
     }
 
     #linhas{
-        width: 86%;
+        width: 100%;
     }
 
 
     .sobre-a-loja .container p {
         font-family: Georgia, 'Times New Roman', Times, serif;  
-        width: 88%;
+        width: 100%;
       
     }
 
 
     .Produtoss{
         display: grid;
-        grid-template-columns: repeat(2, 49%) ;      
+        grid-template-columns: repeat(2, 49%) ;    
+        column-gap: 3% ;  
     }
 
     .Produtoss img{
-        max-width: 88%;
-        width: 88%;
+        max-width: 100%;
+        width: 100%;
+       
         
     }
 
