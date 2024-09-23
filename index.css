@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: auto 0;
+    margin:  0;
    
 }
 
@@ -14,7 +14,7 @@ html{
 
 
 html, body { 
-height: 100%;
+
 background-color: rgb(233, 230, 227);
 
  }
@@ -43,8 +43,8 @@ margin-top: -4px;
 
 header .container{
     display: flex;
-   
     justify-content: space-between;
+    
 }
 
 header .container ,h1{
@@ -55,6 +55,8 @@ header .container ,h1{
 header{
     background-color: rgb(226, 212, 13);
     padding: 1em;
+  
+    
 }
 
 
@@ -148,16 +150,15 @@ button{
     column-gap: 1% ;
 }
 
-footer{
-    background-color: rgb(226, 212, 13);
+
+footer {
+    background-color: rgb(226, 212, 13);;
     color: rgb(0, 0, 0);
-    padding: 0.5rem 0;
-    width: 100%;
-    margin-top: auto;  
     font-weight: bold;
-    display: flex;
-    
-}
+    padding: 1.5rem 0;
+    width: 100%;
+    margin-top: auto;
+    }
 
 .Produtos{
     margin-bottom: 1em;
@@ -211,6 +212,7 @@ footer{
     header {
         background-color: rgb(226, 212, 13);
         padding: 1em; 
+        
     }
 
 
