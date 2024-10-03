@@ -5,12 +5,28 @@
     box-sizing: border-box;
 }
  
+body{
+    background-color: darkgray;
+}
 
 body{
     padding: 100px;
 }
 
-button{
-    width: 100%;
-    
+
+
+ body h1{
+    align-items: center;
+    color: rgb(12, 12, 12);
+    margin-left:9.6em;
 }
+
+label{
+    font-weight: bold;
+}
+
+
+
+
+
+
